@@ -1,0 +1,13 @@
+{
+    "name": "Pretty Election Page",
+    "version": "1.0",
+    "description": "Style improvements to Summit County election page",
+    "content_scripts": [
+        {
+            "matches": ["https://www.summitcountyboe.gov/ElectionResults/Results/*"],
+            "js": ["dist/index.js"],
+            "css": ["dist/styles.css"]
+        }
+    ],
+    "manifest_version": 3
+}
